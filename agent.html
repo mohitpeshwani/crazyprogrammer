@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>W3.CSS Template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+</head>
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button" style="font-family: sans-serif; font-size: 21px; font-weight: bold;"><b>Hudson Homes</b> Management</a>
+            <div class="w3-right w3-hide-small">
+                <a href="#projects" class="w3-bar-item w3-button">Find a Home</a>
+                <a href="#about" class="w3-bar-item w3-button">Applications</a>
+                <a href="#contact" class="w3-bar-item w3-button">Residents</a>
+                <a href="#contact" class="w3-bar-item w3-button">Resources</a>
+                <a href="#contact" class="w3-bar-item w3-button">About</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="https://images.pexels.com/photos/8031952/pexels-photo-8031952.jpeg" alt="Architecture" width="1500" height="800"/>
+        <div class="w3-display-middle w3-margin-top w3-center">
+
+        </div>
+    </header>
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Services</h3>
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Easy Online Leasing</div>
+                    <img src="https://images.pexels.com/photos/6457544/pexels-photo-6457544.jpeg" alt="House" style="width:100%"/>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Hudson Homes Promise</div>
+                    <img src="https://images.pexels.com/photos/1231230/pexels-photo-1231230.jpeg" alt="House" style="width:100%"/>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Resident Friendly Experience</div>
+                    <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg" alt="House" style="width:100%"/>
+                </div>
+            </div>
+        </div>
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>Renting with us means exceptional customer service and a seamless booking process. Our dedicated team is here to assist you at every step, providing prompt responses to your inquiries and guiding you through the rental process with ease.</p>
+        </div>
+    </div>
+   <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00Dbm00000HXENP',
+				'ESA_Web_Deployment',
+				'https://orgfarm-73255c37dc-dev-ed.develop.my.site.com/ESWESAWebDeployment1724800920657',
+				{
+					scrt2URL: 'https://orgfarm-73255c37dc-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-73255c37dc-dev-ed.develop.my.site.com/ESWESAWebDeployment1724800920657/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+</body>
+</html>
