@@ -10,79 +10,64 @@ body {
   background: #eef3f8;
   font-family: "Segoe UI", sans-serif;
   margin: 0;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .projects {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
-.project-card {
-  background: #fff;
-  border-radius: 16px;
+.project {
+  background: #ffffff;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  position: relative;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.1);
 }
 
-.project-card img {
+.project img {
   width: 100%;
-  height: 220px;
+  height: 360px;
   object-fit: cover;
   display: block;
 }
 
-.project-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(190, 210, 223, 0.95);
-  padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.3s ease;
+.project-content {
+  padding: 1.5rem 2rem;
 }
 
-.project-card:hover .project-overlay,
-.project-card:focus-within .project-overlay {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.project-overlay p {
-  font-size: 0.95rem;
-  line-height: 1.5;
+.project-content h2 {
+  margin: 0;
+  font-size: 1.4rem;
   color: #1f2937;
 }
 
-.project-title {
-  padding: 1rem;
-  text-align: center;
-  font-weight: 600;
+.project-content p {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #374151;
 }
 
-.project-title a {
+.project-content a {
+  display: inline-block;
+  margin-top: 1rem;
   color: #2563eb;
+  font-weight: 600;
   text-decoration: none;
 }
 
-.project-title a:hover {
+.project-content a:hover {
   text-decoration: underline;
 }
 
-/* Mobile behavior */
-@media (hover: none) {
-  .project-overlay {
-    opacity: 1;
-    transform: none;
-    position: static;
+/* Mobile optimization */
+@media (max-width: 600px) {
+  .project img {
+    height: 220px;
   }
 }
 </style>
@@ -92,54 +77,52 @@ body {
 
 <section class="projects">
 
-  <!-- Pocket GPK -->
-  <div class="project-card">
+  <!-- Project 1 -->
+  <article class="project">
     <img src="./images/gpk.png" alt="Pocket GPK">
-    <div class="project-overlay">
+    <div class="project-content">
+      <h2>Pocket GPK (Android App)</h2>
       <p>
-        Android application built to digitalize college communication by providing
-        notices, academic updates, and study materials through a single mobile platform.
+        Pocket GPK is an Android application designed to digitalize college
+        communication by providing notices, notes, and important updates
+        through a single mobile platform.
       </p>
-    </div>
-    <div class="project-title">
       <a href="https://www.youtube.com/watch?v=Ye9antwd0lE" target="_blank">
-        Pocket GPK
+        View Demo →
       </a>
     </div>
-  </div>
+  </article>
 
-  <!-- Emotion Analysis -->
-  <div class="project-card">
+  <!-- Project 2 -->
+  <article class="project">
     <img src="./images/emotion.png" alt="Emotion Analysis">
-    <div class="project-overlay">
+    <div class="project-content">
+      <h2>Facial Recognition Based Emotion Analysis</h2>
       <p>
-        Machine learning project using computer vision to analyze facial expressions
-        and predict human emotions in real time.
+        A machine learning project using computer vision to analyze facial
+        expressions and predict human emotions in real time.
       </p>
-    </div>
-    <div class="project-title">
       <a href="https://www.jetir.org/view?paper=JETIRFD06059" target="_blank">
-        Facial Recognition Based Emotion Analysis
+        View Publication →
       </a>
     </div>
-  </div>
+  </article>
 
-  <!-- Crowdfunding Success Prediction -->
-  <div class="project-card">
+  <!-- Project 3 -->
+  <article class="project">
     <img src="./images/crowdfunding.png" alt="Crowdfunding Success Prediction">
-    <div class="project-overlay">
+    <div class="project-content">
+      <h2>Crowdfunding Success Prediction</h2>
       <p>
-        End-to-end ML system built using Flask and scikit-learn to predict crowdfunding
-        campaign success with ~88% accuracy, including preprocessing, feature engineering,
-        and model evaluation.
+        Constructed an end-to-end machine learning system using Flask and
+        scikit-learn to predict campaign success with ~88% accuracy,
+        including preprocessing, feature engineering, and evaluation.
       </p>
-    </div>
-    <div class="project-title">
       <a href="#" target="_blank">
-        Crowdfunding Success Prediction
+        View Project →
       </a>
     </div>
-  </div>
+  </article>
 
 </section>
 
