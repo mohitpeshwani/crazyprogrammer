@@ -1,66 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Testimonials</title>
+
 <style>
-    body{
-        background-color: #bed2dfab;
-    }
-    .slide:hover,.slide:hover span{
-        color:white;
-        background-color: hsl(0, 0%, 54%);
-        margin:2rem;
-        
-        text-align: center;
-        -webkit-font-smoothing: antialiased;
-    }
-    .slide span{
-        margin-bottom:1rem;
-        padding-bottom:1rem;
-    }
-    .slide img{
-        height:100px;
-        width:100px;
-        border-radius: 50%;
-        vertical-align: middle;
-        border-color: #60497e2d;
-        border-style:double;
-        border-width:2rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        border-block-start-color: blue;
-        
-        border-bottom-color: aquamarine;
-        
-    }
-    .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+body {
+    background: #eef3f8;
+    font-family: "Segoe UI", sans-serif;
 }
-   
+
+.testimonials {
+    max-width: 1100px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #e5e9f0;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    margin: 0.5rem 0 0.2rem;
+    font-size: 1.1rem;
+    color: #1f2937;
+}
+
+.card span {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.card p {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #374151;
+}
 </style>
-<body >
-   <div class="slide">   
-<img class="center"  src="./images/sir.jpg" alt="" >
-    <P > Prof.Manoj Andhare</P>    
-    <p> I love the way they complemeted their diploma final year project Pocket Gpk and I am happy to be his team mentor for android app They used and make an usefull application as beginner</p>
-        
-        
-    </div><br>
-    <br>
-    
-    <div class="slide">
-        <img class="center" src="./images/lady.png" alt="">
-        <P > Unknown client</P> 
-        <p> I love the way they complemeted their diploma final year project Pocket Gpk and I am happy to be his team mentor for android app They used and make an usefull application as beginner</p>
-        
+</head>
+
+<body>
+
+<section class="testimonials">
+
+    <!-- Testimonial 1 -->
+    <div class="card">
+        <img src="./images/sir.jpg" alt="Prof Manoj Andhare">
+        <h3>Prof. Manoj Andhare</h3>
+        <span>Project Mentor</span>
+        <p>
+            I love the way they completed their diploma final year project “Pocket GPK”.
+            I was happy to mentor the team for their Android app. They built a useful
+            application with a strong learning mindset as beginners.
+        </p>
     </div>
+
+    <!-- Testimonial 2 -->
+    <div class="card">
+        <img src="./images/lady.png" alt="Client">
+        <h3>Unknown Client</h3>
+        <span>Client</span>
+        <p>
+            I loved the way the project was executed and delivered with clarity and focus.
+            The application was practical, well-structured, and thoughtfully implemented.
+        </p>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="card">
+        <img src="./images/default.png" alt="Shubham Hatwar">
+        <h3>Shubham Hatwar</h3>
+        <span>Software Engineer</span>
+        <p>
+            Mohit played a key role in my professional growth at Areya Technologies.
+            His strong technical expertise, clean coding standards, and guidance on PMD
+            issues and best practices made a huge difference. He is dependable,
+            supportive, and always eager to learn.
+        </p>
+    </div>
+
+    <!-- Testimonial 4 -->
+    <div class="card">
+        <img src="./images/default.png" alt="Ajinkya Gaikwad">
+        <h3>Ajinkya Gaikwad</h3>
+        <span>Salesforce Developer · Accenture</span>
+        <p>
+            I had the opportunity to work with Mohit on Salesforce implementations,
+            especially integrations and LWC development. It was a pleasure collaborating
+            with him while tackling implementation challenges together.
+        </p>
+    </div>
+
+</section>
+
 </body>
 </html>
