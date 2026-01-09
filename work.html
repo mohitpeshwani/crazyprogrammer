@@ -10,11 +10,11 @@ body {
   background: #eef3f8;
   font-family: "Segoe UI", sans-serif;
   margin: 0;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .projects {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -22,11 +22,11 @@ body {
 }
 
 .project-card {
-  position: relative;
+  background: #fff;
   border-radius: 16px;
   overflow: hidden;
-  background: #ffffff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  position: relative;
 }
 
 .project-card img {
@@ -47,7 +47,7 @@ body {
   text-align: center;
   opacity: 0;
   transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .project-card:hover .project-overlay,
@@ -69,20 +69,20 @@ body {
 }
 
 .project-title a {
-  text-decoration: none;
   color: #2563eb;
+  text-decoration: none;
 }
 
 .project-title a:hover {
   text-decoration: underline;
 }
 
-/* Mobile / iframe safe */
+/* Mobile behavior */
 @media (hover: none) {
   .project-overlay {
-    position: static;
     opacity: 1;
     transform: none;
+    position: static;
   }
 }
 </style>
@@ -92,30 +92,29 @@ body {
 
 <section class="projects">
 
-  <!-- Project 1 -->
+  <!-- Pocket GPK -->
   <div class="project-card">
     <img src="./images/gpk.png" alt="Pocket GPK">
     <div class="project-overlay">
       <p>
-        Pocket GPK is an Android application designed to digitalize college
-        communication by delivering notices, notes, and updates through a
-        single mobile platform.
+        Android application built to digitalize college communication by providing
+        notices, academic updates, and study materials through a single mobile platform.
       </p>
     </div>
     <div class="project-title">
       <a href="https://www.youtube.com/watch?v=Ye9antwd0lE" target="_blank">
-        Pocket GPK (Android App)
+        Pocket GPK
       </a>
     </div>
   </div>
 
-  <!-- Project 2 -->
+  <!-- Emotion Analysis -->
   <div class="project-card">
     <img src="./images/emotion.png" alt="Emotion Analysis">
     <div class="project-overlay">
       <p>
-        Machine learning project using computer vision to analyze facial
-        expressions and predict human emotions in real time.
+        Machine learning project using computer vision to analyze facial expressions
+        and predict human emotions in real time.
       </p>
     </div>
     <div class="project-title">
@@ -125,14 +124,14 @@ body {
     </div>
   </div>
 
-  <!-- Project 3 -->
+  <!-- Crowdfunding Success Prediction -->
   <div class="project-card">
     <img src="./images/crowdfunding.png" alt="Crowdfunding Success Prediction">
     <div class="project-overlay">
       <p>
-        End-to-end ML system built with Flask and scikit-learn to predict
-        crowdfunding campaign success with ~88% accuracy, including data
-        preprocessing, feature engineering, and model evaluation.
+        End-to-end ML system built using Flask and scikit-learn to predict crowdfunding
+        campaign success with ~88% accuracy, including preprocessing, feature engineering,
+        and model evaluation.
       </p>
     </div>
     <div class="project-title">
