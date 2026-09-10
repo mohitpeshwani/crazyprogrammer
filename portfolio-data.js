@@ -1,87 +1,39 @@
-/**
- * ============================================================
- * CrazyBot - Mohit Peshwani Professional Knowledge Base
- * ============================================================
- *
- * Portfolio:
- *   https://mohitpeshwani.github.io/crazyprogrammer/
- *
- * GitHub:
- *   https://github.com/mohitpeshwani
- *
- * Updated:
- *   September 10, 2026
- *
- * PURPOSE
- * -------
- * This file powers CrazyBot as a professional AI representative
- * for Mohit Peshwani.
- *
- * IMPORTANT CLASSIFICATION
- * ------------------------
- * 1. Professional work != Independent projects
- * 2. GeekSoft projects are kept separately
- * 3. GitHub repositories are public technical work, not automatically
- *    professional/client work
- * 4. Topmate is a mentorship journey
- * 5. YouTube is a creator/education journey
- * 6. FDE is an emerging career direction, not a current job title
- * 7. Never fabricate confidential client information
- * 8. Never claim a forked repository as original work
- */
-
 const PORTFOLIO_DATA = {
-
-  // ==========================================================
-  // BOT
-  // ==========================================================
-
   bot: {
-
     name: "CrazyBot",
 
     greeting:
-      "👋 Hi! I'm CrazyBot, Mohit Peshwani's AI portfolio assistant. Ask me about his current GeekSoft work, Agentforce and AI projects, Salesforce expertise, Forward Deployed Engineer journey, Topmate mentorship, YouTube journey, GitHub projects, certifications, or career story.",
+      "👋 Hi! I'm CrazyBot, Mohit Peshwani's AI portfolio assistant. Ask me about his GeekSoft consulting work, Agentforce & AI projects, Salesforce expertise, Forward Deployed Engineer journey, 5★ Topmate mentorship, YouTube education, GitHub projects, or career story.",
 
     voiceIntro:
-      "Hi there! I'm CrazyBot, Mohit Peshwani's AI portfolio assistant. I can tell you about Mohit's current work at GeekSoft, his individual and professional projects, Agentforce and Data Cloud work, Forward Deployed Engineer journey, Topmate mentorship, YouTube journey, GitHub projects and broader technical experience.",
+      "Hi there! I'm CrazyBot, Mohit Peshwani's AI portfolio assistant. I can tell you about his current GeekSoft work, individual projects, Agentforce and Data360 work, Forward Deployed Engineer journey, work tracks, 5-star Topmate mentorship, YouTube journey and GitHub projects. What would you like to explore?",
 
     pitch30s:
-      "Mohit Peshwani is a Salesforce Consultant at GeekSoft Consulting focused on Agentforce, Data360/Data Cloud, enterprise automation and AI-driven Salesforce solutions. His background spans Salesforce development, data analytics, integrations and enterprise consulting. He is also actively building toward a Forward Deployed Engineer career, while mentoring through Topmate and sharing technical knowledge through his CrazyProgrammer YouTube journey."
+      "Mohit Peshwani is a Salesforce Consultant at GeekSoft Consulting focused on Agentforce, Data360/Data Cloud, enterprise automation and AI-driven Salesforce solutions. His background spans Salesforce development, data analytics, integrations and enterprise consulting, and he is actively developing toward a Forward Deployed Engineer career. He is also a 5-star Topmate mentor and technical educator through his CrazyProgrammer YouTube channel."
   },
 
-
-  // ==========================================================
-  // PROFILE
-  // ==========================================================
-
   profile: {
-
     name: "Mohit Peshwani",
 
     title:
       "Salesforce Consultant | Agentforce & AI Engineer | Emerging Forward Deployed Engineer",
 
     tagline:
-      "Salesforce Consultant at GeekSoft Consulting focused on Agentforce, Data360/Data Cloud, AI-driven automation, enterprise consulting and the journey toward Forward Deployed Engineering.",
+      "Salesforce Consultant at GeekSoft Consulting focused on Agentforce, Data360/Data Cloud, AI-driven automation, enterprise consulting, and the journey toward Forward Deployed Engineering. 5★ Topmate mentor & technical educator.",
 
     location:
-      "Pune, India",
-
-    relocation:
-      "Open to EU / EMEA / UAE relocation",
-
-    status:
-      "🟢 Salesforce Consultant at GeekSoft | Building toward Forward Deployed Engineering",
-
-    email:
-      "mohitpeshwani101@gmail.com",
+      "Pune, India (Open to EU / EMEA / UAE relocation)",
 
     avatar:
       "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
 
-    socials: {
+    status:
+      "🟢 Salesforce Consultant at GeekSoft | Building toward Forward Deployed Engineering | Open to relevant AI/Salesforce consulting opportunities",
 
+    email:
+      "mohitpeshwani101@gmail.com",
+
+    socials: {
       github:
         "https://github.com/mohitpeshwani",
 
@@ -102,75 +54,35 @@ const PORTFOLIO_DATA = {
     }
   },
 
-
-  // ==========================================================
-  // PROFESSIONAL IDENTITY
-  // ==========================================================
-
   professionalIdentity: {
-
     currentRole:
       "Salesforce Consultant at GeekSoft Consulting Pvt Ltd",
 
-    corePositioning:
-      "Mohit combines Salesforce engineering, Agentforce, Data Cloud/Data360, AI, data analytics, integrations, automation and enterprise consulting.",
+    professionalPositioning:
+      "Mohit combines Salesforce engineering, Agentforce, Data360/Data Cloud, analytics, integrations, AI and enterprise consulting. He is also actively developing toward a Forward Deployed Engineer (FDE) career.",
 
-    futurePositioning:
-      "Mohit is actively developing toward a Forward Deployed Engineer career.",
+    fdePositioning:
+      "Mohit should be described as an emerging Forward Deployed Engineer, not as someone already holding an FDE job title. His Salesforce and Agentforce background gives him a strong foundation in customer problem solving, technical discovery, rapid solution design, implementation and working directly with stakeholders and engineering teams.",
 
-    professionalIdentitySummary:
-      "A Salesforce and AI engineer who works at the intersection of enterprise software engineering, AI agents, business-process automation, data, consulting and customer problem solving.",
-
-    primaryExpertise: [
-
-      "Salesforce Development",
-      "Agentforce",
-      "Data Cloud / Data360",
-      "Apex",
-      "Lightning Web Components",
-      "Flows",
-      "CRM Analytics",
-      "Einstein AI",
-      "Enterprise Integrations",
-      "REST APIs",
-      "AI-driven Automation",
-      "Data Analytics"
-    ],
-
-    secondaryExpertise: [
-
-      "Python",
-      "Machine Learning",
-      "SQL",
-      "Tableau",
-      "Git",
-      "SFDX",
-      "Testing Automation",
-      "Web Development",
-      "Technical Mentoring"
+    careerDirection: [
+      "Salesforce Consultant",
+      "Agentforce / AI Engineer",
+      "Data & AI Consultant",
+      "Forward Deployed Engineer"
     ],
 
     differentiators: [
-
       "Salesforce + AI combination",
-      "Agentforce implementation experience",
-      "Data Cloud/Data360 exposure",
-      "Enterprise consulting experience",
-      "Hands-on engineering capability",
-      "Customer/stakeholder collaboration",
-      "Technical mentoring",
-      "Public technical education",
-      "Cross-domain project exposure"
+      "Agentforce implementation and agentic workflow experience",
+      "Data360/Data Cloud and CRM Analytics exposure",
+      "Hands-on Apex, LWC, Flow and integration development",
+      "Enterprise stakeholder and consulting experience",
+      "Technical mentoring and public knowledge sharing",
+      "Broad exposure across software development, data analytics, automation and AI"
     ]
   },
 
-
-  // ==========================================================
-  // GEEKSOFT
-  // ==========================================================
-
   geeksoft: {
-
     company:
       "GeekSoft Consulting Pvt Ltd",
 
@@ -180,41 +92,218 @@ const PORTFOLIO_DATA = {
     period:
       "Apr 2026 – Present",
 
-    location:
-      "Pune, India",
-
-    positioning:
-      "At GeekSoft, Mohit works across Salesforce, Agentforce, Data360/Data Cloud, AI, enterprise consulting, implementation readiness and customer/business alignment.",
-
-    coreAreas: [
-
-      "Agentforce",
-      "Data360 / Data Cloud",
-      "AI solution implementation",
-      "Enterprise Salesforce",
-      "Customer-facing consulting",
-      "Implementation readiness",
-      "Architecture",
-      "Stakeholder management",
-      "Business-to-technology translation",
-      "Compliance-oriented solutions"
+    focus: [
+      "Data360 / Data Cloud implementation readiness",
+      "Agentforce implementation readiness",
+      "Enterprise Salesforce consulting",
+      "Stakeholder and customer communication",
+      "Architecture standards and project success criteria",
+      "Dependencies, milestones and delivery alignment"
     ],
 
-    responsibilities: [
+    positioning:
+      "Mohit's current GeekSoft role extends beyond coding. He works at the intersection of Salesforce, AI, data, consulting, architecture and customer/business alignment."
+  },
 
-      "Oversee end-to-end readiness activities for Data360 and Agentforce implementation.",
-      "Act as a liaison between stakeholders, enterprise customers and engineering teams.",
-      "Define project milestones, architecture standards and success criteria.",
-      "Support technical and business readiness for Salesforce and AI initiatives.",
-      "Manage implementation dependencies.",
-      "Maintain alignment between business objectives and technical execution."
+  forwardDeployedEngineer: {
+    status:
+      "Emerging / actively developing toward FDE",
+
+    description:
+      "Mohit is intentionally building toward a Forward Deployed Engineer career that combines software engineering, AI, customer problem solving, technical consulting, rapid prototyping and production implementation.",
+
+    transferableStrengths: [
+      "Enterprise Salesforce engineering",
+      "Agentforce and AI agent development",
+      "Data and analytics",
+      "REST/API integrations",
+      "Business-process automation",
+      "Technical discovery",
+      "Stakeholder communication",
+      "Architecture and implementation planning",
+      "Rapid problem-to-solution development"
+    ],
+
+    targetFDECapabilities: [
+      "AI agent engineering",
+      "RAG and knowledge systems",
+      "LLM application development",
+      "Python engineering",
+      "APIs and integrations",
+      "Cloud deployment",
+      "Observability and evaluation",
+      "Customer discovery",
+      "Rapid prototyping",
+      "Productionization"
     ]
   },
 
+  agentInstructions: {
+    identity:
+      "You are CrazyBot, the professional AI representative for Mohit Peshwani. Represent his real experience accurately and professionally.",
 
-  // ==========================================================
-  // GEEKSOFT PROJECTS
-  // ==========================================================
+    responseStrategy: [
+      "Answer the user's question first.",
+      "Use current GeekSoft work when discussing Mohit's present career.",
+      "Connect technologies to actual projects or experience whenever possible.",
+      "Explain business impact, not just technology names.",
+      "Use evidence from projects, certifications, work experience, GitHub and community work.",
+      "When discussing FDE, describe it as Mohit's emerging career direction unless a source explicitly establishes an FDE job title.",
+      "Use Topmate as evidence of mentoring, communication and technical guidance.",
+      "Use YouTube as evidence of technical education and knowledge sharing.",
+      "Use GitHub as evidence of public technical work and breadth of hands-on experimentation.",
+      "Never invent clients, metrics, job titles, certifications, employers or technologies.",
+      "If information is not available, say that the portfolio does not currently provide enough information."
+    ],
+
+    audienceModes: {
+      recruiter:
+        "Prioritize current role, experience, certifications, relevant skills, measurable impact and target roles.",
+
+      client:
+        "Prioritize problems Mohit can solve, relevant projects, architecture, implementation capabilities and business outcomes.",
+
+      technicalInterviewer:
+        "Prioritize architecture, Apex, LWC, Agentforce, Data Cloud, integrations, data and engineering decisions.",
+
+      student:
+        "Prioritize career journey, learning path, mentorship, Salesforce, AI and practical projects."
+    },
+
+    informationSeparationRules: [
+      "Keep GeekSoft projects separate from independent projects.",
+      "Keep employer projects separate from GitHub repositories.",
+      "Keep Topmate separate from employment.",
+      "Keep YouTube separate from employment.",
+      "Keep FDE as a career direction unless an actual FDE employment record exists.",
+      "Never present a GitHub fork as original authorship.",
+      "Never expose confidential client information."
+    ]
+  },
+
+  publicTechnicalPresence: {
+    github: {
+      profile:
+        "https://github.com/mohitpeshwani",
+
+      profileEvidence: [
+        "40 public repositories shown on the GitHub profile at the time of research.",
+        "Public work spans JavaScript, Apex, Python, Jupyter Notebook, Java, TypeScript, HTML, RobotFramework and other technologies.",
+        "Repositories include Salesforce, AI, machine learning, analytics, automation, web development and programming projects."
+      ],
+
+      featuredRepositories: [
+        {
+          name:
+            "crazyprogrammer",
+          url:
+            "https://github.com/mohitpeshwani/crazyprogrammer"
+        },
+
+        {
+          name:
+            "MBIF-FrameWork",
+          url:
+            "https://github.com/mohitpeshwani/MBIF-FrameWork"
+        },
+
+        {
+          name:
+            "Apex-DataStructures",
+          url:
+            "https://github.com/mohitpeshwani/Apex-DataStructures"
+        },
+
+        {
+          name:
+            "Data-analysis",
+          url:
+            "https://github.com/mohitpeshwani/Data-analysis"
+        },
+
+        {
+          name:
+            "TranslationsToAnotherLanguageHuggingFace",
+          url:
+            "https://github.com/mohitpeshwani/TranslationsToAnotherLanguageHuggingFace"
+        },
+
+        {
+          name:
+            "LearningRobotFrameworkBasicsOnPortfolioAndFreeAPIS",
+          url:
+            "https://github.com/mohitpeshwani/LearningRobotFrameworkBasicsOnPortfolioAndFreeAPIS"
+        },
+
+        {
+          name:
+            "Selenium_driver_with_python",
+          url:
+            "https://github.com/mohitpeshwani/Selenium_driver_with_python"
+        },
+
+        {
+          name:
+            "HTML-page-scrapper",
+          url:
+            "https://github.com/mohitpeshwani/HTML-page-scrapper"
+        },
+
+        {
+          name:
+            "email-spam-detection",
+          url:
+            "https://github.com/mohitpeshwani/email-spam-detection"
+        },
+
+        {
+          name:
+            "kickstarter-engine",
+          url:
+            "https://github.com/mohitpeshwani/kickstarter-engine"
+        }
+      ],
+
+      note:
+        "GitHub repository information is a snapshot and may change. Use the live GitHub profile for the latest repository list."
+    },
+
+    youtube: {
+      name:
+        "CrazyProgrammer / Mohit Peshwani",
+
+      url:
+        "https://www.youtube.com/channel/UCDf9dY5N1UAE9bZ5CkPOrnQ",
+
+      focus: [
+        "Salesforce",
+        "Apex",
+        "LWC",
+        "Agentforce",
+        "Python",
+        "Data Analytics",
+        "Software Development"
+      ]
+    },
+
+    topmate: {
+      profileUrl:
+        "https://topmate.io/mohitpeshwani",
+
+      rating:
+        "5.0 ★★★★★",
+
+      positioning:
+        "Mohit uses Topmate for technical and career mentorship around Salesforce, development, career transitions, projects and data/AI topics.",
+
+      rule:
+        "Do not invent number of sessions, students, reviews or revenue."
+    }
+  },
+
+  /* =========================================================
+     PROFESSIONAL PROJECTS
+     ========================================================= */
 
   geeksoftProjects: [
 
@@ -244,10 +333,9 @@ const PORTFOLIO_DATA = {
         "Use AI agents and unified recruitment data to improve recruitment-management workflows.",
 
       solution:
-        "Implemented Agentforce capabilities for recruitment-management workflows and used Data Cloud/Data360 to bring relevant recruitment data together for AI-driven use cases.",
+        "Implemented Agentforce capabilities for recruitment-management workflows and used Data Cloud / Data360 to bring relevant recruitment data together for AI-driven use cases.",
 
       technologies: [
-
         "Salesforce",
         "Agentforce",
         "Data Cloud / Data360",
@@ -256,15 +344,13 @@ const PORTFOLIO_DATA = {
       ],
 
       responsibilities: [
-
-        "Implemented Agentforce capabilities for recruitment workflows.",
-        "Worked with Data Cloud/Data360 to unify recruitment-related data.",
+        "Implemented Agentforce capabilities for recruitment-management workflows.",
+        "Worked with Data Cloud / Data360 to unify recruitment-related data.",
         "Connected AI capabilities with Salesforce business processes.",
-        "Contributed to implementation and solution readiness."
+        "Contributed to solution implementation and readiness."
       ],
 
       businessValue: [
-
         "AI-assisted recruitment workflows",
         "Centralized recruitment data",
         "Improved access to recruitment information",
@@ -272,18 +358,16 @@ const PORTFOLIO_DATA = {
       ],
 
       demonstrates: [
-
         "Agentforce implementation",
         "Data Cloud implementation",
         "AI solution design",
-        "Enterprise consulting",
+        "Enterprise Salesforce consulting",
         "Business-process automation"
       ],
 
       fdeRelevance:
-        "Demonstrates the ability to combine AI, enterprise data and business processes into a customer-oriented solution."
+        "Demonstrates the ability to combine AI, enterprise data and business processes into a customer-oriented technical solution."
     },
-
 
     {
       id:
@@ -296,10 +380,10 @@ const PORTFOLIO_DATA = {
         "GeekSoft Consulting Pvt Ltd",
 
       type:
-        "Professional Client Engagement",
+        "Professional / Client Engagement",
 
       status:
-        "Client Engagement / Banking Project",
+        "Client Engagement",
 
       domain:
         "Banking / BFSI",
@@ -314,10 +398,9 @@ const PORTFOLIO_DATA = {
         "Help the client address A-to-Z compliance expectations and demonstrate a credible AI, data and Python solution for a banking engagement.",
 
       solution:
-        "Contributed to an end-to-end approach using Salesforce Agentforce, Data Cloud/Data360 and Python while supporting the client's compliance-oriented banking requirements.",
+        "Contributed to an end-to-end approach using Salesforce Agentforce, Data Cloud / Data360 and Python while supporting the client's compliance-oriented banking requirements.",
 
       technologies: [
-
         "Salesforce Agentforce",
         "Salesforce Data Cloud / Data360",
         "Python",
@@ -327,7 +410,6 @@ const PORTFOLIO_DATA = {
       ],
 
       responsibilities: [
-
         "Worked with the Malaysian client on the banking engagement.",
         "Contributed to the A-to-Z compliance approach.",
         "Implemented or demonstrated Agentforce capabilities.",
@@ -337,7 +419,6 @@ const PORTFOLIO_DATA = {
       ],
 
       businessValue: [
-
         "Supported the client's banking-project pursuit.",
         "Demonstrated an end-to-end AI and data capability.",
         "Addressed compliance requirements across the engagement.",
@@ -345,7 +426,6 @@ const PORTFOLIO_DATA = {
       ],
 
       demonstrates: [
-
         "BFSI domain exposure",
         "Agentforce",
         "Data Cloud",
@@ -363,109 +443,6 @@ const PORTFOLIO_DATA = {
     }
   ],
 
-
-  // ==========================================================
-  // WORK TRACKS
-  // ==========================================================
-
-  workTracks: {
-
-    description:
-      "Mohit's professional career is organized by employer and work track. Individual work projects remain separate from independent projects and public GitHub repositories.",
-
-    current: {
-
-      company:
-        "GeekSoft Consulting Pvt Ltd",
-
-      role:
-        "Salesforce Consultant",
-
-      period:
-        "Apr 2026 – Present",
-
-      track:
-        "Salesforce Consulting + Agentforce + Data360/Data Cloud + Enterprise AI",
-
-      projects: [
-        "AI-Powered Recruitment Management System",
-        "Malaysian Banking AI & A-to-Z Compliance Solution"
-      ]
-    },
-
-    previous: [
-
-      {
-        company:
-          "Areya Technologies Pvt. Ltd.",
-
-        role:
-          "Senior Salesforce Developer",
-
-        period:
-          "Apr 2024 – Apr 2026",
-
-        track:
-          "Salesforce Engineering + Automation + Analytics + Integrations",
-
-        projects: [
-          "Ola Krutrim",
-          "Samiti / Nonprofit Cloud",
-          "Real Estate CRM & Field Service",
-          "Inmar Intelligence",
-          "Emerson Commerce Cloud"
-        ]
-      },
-
-
-      {
-        company:
-          "Delbridge Solutions",
-
-        role:
-          "Salesforce Consultant",
-
-        period:
-          "Mar 2023 – Mar 2024",
-
-        track:
-          "Enterprise Salesforce Consulting + Automation + Security",
-
-        projects: [
-          "Boston University Admissions & Recruiting"
-        ]
-      },
-
-
-      {
-        company:
-          "BrowserStack",
-
-        role:
-          "SDET",
-
-        period:
-          "Jun 2022 – Jan 2023",
-
-        track:
-          "Testing + Salesforce Data Migration + API Integration",
-
-        projects: [
-          "Percy acquisition-related Salesforce CRM migration",
-          "Customer analytics and product-usage telemetry integrations"
-        ]
-      }
-    ],
-
-    careerProgression:
-      "Mohit's career progressed from software testing and data/API work into Salesforce consulting and senior Salesforce engineering, and then into Salesforce consulting focused on Agentforce and Data360. In parallel, he is building toward Forward Deployed Engineering."
-  },
-
-
-  // ==========================================================
-  // OTHER PROFESSIONAL PROJECTS
-  // ==========================================================
-
   professionalProjects: [
 
     {
@@ -481,8 +458,8 @@ const PORTFOLIO_DATA = {
       category:
         "Salesforce Automation",
 
-      description:
-        "Streamlined sales operations workflows using Apex, Flows and Lightning Web Components.",
+      type:
+        "Professional Project",
 
       technologies: [
         "Apex",
@@ -492,12 +469,8 @@ const PORTFOLIO_DATA = {
       ],
 
       impact:
-        "30% reduction in manual effort",
-
-      type:
-        "Professional Project"
+        "30% reduction in manual effort"
     },
-
 
     {
       id:
@@ -512,8 +485,8 @@ const PORTFOLIO_DATA = {
       category:
         "Experience Cloud / Nonprofit",
 
-      description:
-        "Built a hostel admissions portal on Salesforce Experience Cloud with payment and communication integrations.",
+      type:
+        "Professional Project",
 
       technologies: [
         "Experience Cloud",
@@ -524,12 +497,8 @@ const PORTFOLIO_DATA = {
       ],
 
       impact:
-        "40% reduction in processing turnaround time",
-
-      type:
-        "Professional Project"
+        "40% reduction in processing turnaround time"
     },
-
 
     {
       id:
@@ -544,8 +513,8 @@ const PORTFOLIO_DATA = {
       category:
         "CRM / Field Service",
 
-      description:
-        "Refactored CRM data models and implemented Field Service scheduling for real-estate operations.",
+      type:
+        "Professional Project",
 
       technologies: [
         "Salesforce CRM",
@@ -554,12 +523,8 @@ const PORTFOLIO_DATA = {
       ],
 
       impact:
-        "35% efficiency improvement",
-
-      type:
-        "Professional Project"
+        "35% efficiency improvement"
     },
-
 
     {
       id:
@@ -574,8 +539,8 @@ const PORTFOLIO_DATA = {
       category:
         "Data & Predictive Analytics",
 
-      description:
-        "Built CRM Analytics dashboards and Einstein Discovery predictive models using Salesforce and Data Cloud data.",
+      type:
+        "Professional Project",
 
       technologies: [
         "CRM Analytics",
@@ -583,15 +548,8 @@ const PORTFOLIO_DATA = {
         "Data Cloud",
         "SQL",
         "Tableau"
-      ],
-
-      impact:
-        "Improved decision-making and predictive analytics capabilities",
-
-      type:
-        "Professional Project"
+      ]
     },
-
 
     {
       id:
@@ -606,8 +564,8 @@ const PORTFOLIO_DATA = {
       category:
         "Payments / Commerce",
 
-      description:
-        "Worked on Salesforce payment adapter capabilities including tokenization, authorization and payment orchestration.",
+      type:
+        "Professional Project",
 
       technologies: [
         "Salesforce Payments",
@@ -615,12 +573,8 @@ const PORTFOLIO_DATA = {
         "Tokenization",
         "Authorization",
         "Payment Orchestration"
-      ],
-
-      type:
-        "Professional Project"
+      ]
     },
-
 
     {
       id:
@@ -635,8 +589,8 @@ const PORTFOLIO_DATA = {
       category:
         "Enterprise Salesforce",
 
-      description:
-        "Architected and deployed Salesforce solutions for admissions and recruiting workflows.",
+      type:
+        "Professional Project",
 
       technologies: [
         "Salesforce",
@@ -647,12 +601,8 @@ const PORTFOLIO_DATA = {
       ],
 
       impact:
-        "70% reduction in admissions processing turnaround",
-
-      type:
-        "Professional Project"
+        "70% reduction in admissions processing turnaround"
     },
-
 
     {
       id:
@@ -667,20 +617,16 @@ const PORTFOLIO_DATA = {
       category:
         "Data Migration",
 
-      description:
-        "Supported Salesforce CRM data migration, deduplication and field mapping during BrowserStack's acquisition of Percy.",
+      type:
+        "Professional Project",
 
       technologies: [
         "Salesforce",
         "Data Migration",
         "Data Mapping",
         "Deduplication"
-      ],
-
-      type:
-        "Professional Project"
+      ]
     },
-
 
     {
       id:
@@ -695,25 +641,21 @@ const PORTFOLIO_DATA = {
       category:
         "API Integration",
 
-      description:
-        "Built REST API integrations to synchronize customer analytics and product-usage telemetry into Salesforce.",
+      type:
+        "Professional Project",
 
       technologies: [
         "REST APIs",
         "Salesforce",
         "Integration",
         "Customer Analytics"
-      ],
-
-      type:
-        "Professional Project"
+      ]
     }
   ],
 
-
-  // ==========================================================
-  // INDEPENDENT PROJECTS
-  // ==========================================================
+  /* =========================================================
+     INDEPENDENT PROJECTS
+     ========================================================= */
 
   individualProjects: [
 
@@ -721,7 +663,7 @@ const PORTFOLIO_DATA = {
       id:
         "individual-agentforce-property",
 
-      name:
+      title:
         "Agentic AI Property Manager",
 
       type:
@@ -731,7 +673,7 @@ const PORTFOLIO_DATA = {
         "Agentforce & AI",
 
       problem:
-        "Automate tenant maintenance requests from initial email through case triage and routing.",
+        "Automate tenant maintenance request handling from initial email through case triage and routing.",
 
       solution:
         "An Agentforce-driven assistant verifies the tenant, creates the Salesforce case, maps the issue category, determines priority, assigns the owner and triggers stakeholder notifications.",
@@ -746,31 +688,14 @@ const PORTFOLIO_DATA = {
       ],
 
       outcome:
-        "Zero-touch automated maintenance case triage.",
-
-      demonstrates: [
-        "Agentic workflow design",
-        "Salesforce automation",
-        "AI decisioning",
-        "Case management",
-        "Business-process automation"
-      ],
-
-      links: {
-        github:
-          "https://github.com/mohitpeshwani",
-
-        portfolio:
-          "https://mohitpeshwani.github.io/crazyprogrammer/"
-      }
+        "Zero-touch automated maintenance case triage."
     },
-
 
     {
       id:
         "individual-agentforce-banking",
 
-      name:
+      title:
         "Agentic AI Banking Query Handler",
 
       type:
@@ -780,7 +705,7 @@ const PORTFOLIO_DATA = {
         "Agentforce & BFSI",
 
       problem:
-        "Automate customer identification, complaint logging, case creation, escalation and self-service responses.",
+        "Automate customer complaint intake, identification, case creation, escalation and self-service responses.",
 
       solution:
         "An Agentforce assistant handles customer identification, complaint logging, case creation, escalation routing, stakeholder notifications and knowledge retrieval.",
@@ -795,31 +720,14 @@ const PORTFOLIO_DATA = {
       ],
 
       outcome:
-        "Automated end-to-end BFSI inquiry handling.",
-
-      demonstrates: [
-        "Agentic customer-service workflows",
-        "BFSI process automation",
-        "Case escalation",
-        "Knowledge retrieval",
-        "API integration"
-      ],
-
-      links: {
-        github:
-          "https://github.com/mohitpeshwani",
-
-        portfolio:
-          "https://mohitpeshwani.github.io/crazyprogrammer/"
-      }
+        "Automated end-to-end BFSI inquiry handling."
     },
-
 
     {
       id:
         "individual-crm-analytics",
 
-      name:
+      title:
         "CRM Analytics & Einstein Discovery Predictive Models",
 
       type:
@@ -844,23 +752,14 @@ const PORTFOLIO_DATA = {
       ],
 
       outcome:
-        "Improved executive decision-making speed and forecasting visibility.",
-
-      demonstrates: [
-        "Data integration",
-        "Business analytics",
-        "Predictive modeling",
-        "Dashboarding",
-        "Data-driven decision support"
-      ]
+        "Improved executive decision-making speed and forecasting visibility."
     },
-
 
     {
       id:
         "individual-crowdfunding-ml",
 
-      name:
+      title:
         "Crowdfunding Campaign Success Prediction",
 
       type:
@@ -884,23 +783,14 @@ const PORTFOLIO_DATA = {
       ],
 
       outcome:
-        "~88% prediction accuracy in the portfolio model.",
-
-      demonstrates: [
-        "Machine learning",
-        "Feature engineering",
-        "Model evaluation",
-        "Python application development",
-        "ML deployment"
-      ]
+        "~88% prediction accuracy in the portfolio model."
     },
-
 
     {
       id:
         "individual-hostel-admission",
 
-      name:
+      title:
         "Samit Hostel Admission Portal",
 
       type:
@@ -924,1117 +814,710 @@ const PORTFOLIO_DATA = {
       ],
 
       outcome:
-        "Reduced processing turnaround time by 40%.",
-
-      demonstrates: [
-        "Experience Cloud",
-        "External payment integration",
-        "Customer-facing Salesforce applications",
-        "Messaging automation"
-      ]
+        "Reduced processing turnaround time by 40%."
     }
   ],
 
+  /* =========================================================
+     DETAILED TECHNOLOGY STACK
+     ========================================================= */
 
-  // ==========================================================
-  // GITHUB
-  // ==========================================================
+  techStack: {
 
-  githubProjects: {
+    salesforce: {
 
-    profile:
-      "https://github.com/mohitpeshwani",
+      overview:
+        "Mohit's Salesforce stack spans Salesforce Clouds, core development, Agentforce/AI, Data Cloud, analytics, Tableau, integrations and security.",
 
-    repositoryCountObserved:
-      40,
+      clouds: [
 
-    description:
-      "Mohit's public GitHub portfolio containing Salesforce, Apex, Python, AI, data, automation, Java, web-development, testing and learning repositories.",
+        {
+          name:
+            "Sales Cloud",
 
-    importantRule:
-      "GitHub repositories are public technical work. A repository is not automatically a professional/client project.",
+          evidence: [
+            "Sales operations workflow automation",
+            "Pipeline and opportunity analytics"
+          ],
 
-    repositories: [
+          technologies: [
+            "Apex",
+            "LWC",
+            "Flows",
+            "CRM Analytics"
+          ]
+        },
 
-      {
-        name:
-          "crazyprogrammer",
+        {
+          name:
+            "Service Cloud",
 
-        url:
-          "https://github.com/mohitpeshwani/crazyprogrammer",
+          evidence: [
+            "Agentic AI Banking Query Handler",
+            "Case creation and escalation workflows"
+          ],
 
-        language:
-          "JavaScript",
+          technologies: [
+            "Agentforce",
+            "Cases",
+            "Knowledge",
+            "Apex",
+            "LWC",
+            "Flows"
+          ]
+        },
 
-        category:
-          "Portfolio / Web",
+        {
+          name:
+            "Experience Cloud",
 
-        classification:
-          "Portfolio project",
+          evidence: [
+            "Samit Hostel Admission Portal"
+          ],
 
-        description:
-          "Mohit's public portfolio website and CrazyBot project."
-      },
+          technologies: [
+            "Experience Cloud",
+            "Apex",
+            "LWC",
+            "External APIs"
+          ]
+        },
 
+        {
+          name:
+            "Field Service",
 
-      {
-        name:
-          "MBIF-FrameWork",
+          evidence: [
+            "Real Estate CRM & Field Service"
+          ],
 
-        url:
-          "https://github.com/mohitpeshwani/MBIF-FrameWork",
+          technologies: [
+            "Field Service",
+            "Scheduling",
+            "Salesforce CRM",
+            "Data Modeling"
+          ]
+        },
 
-        language:
+        {
+          name:
+            "Commerce Cloud / Salesforce Payments",
+
+          evidence: [
+            "Emerson Commerce Cloud"
+          ],
+
+          technologies: [
+            "Salesforce Payments",
+            "Payment Adapter",
+            "Tokenization",
+            "Authorization",
+            "Payment Orchestration"
+          ]
+        },
+
+        {
+          name:
+            "Nonprofit Cloud",
+
+          evidence: [
+            "Samiti hostel admission solution"
+          ],
+
+          technologies: [
+            "Nonprofit Cloud",
+            "Experience Cloud",
+            "Apex",
+            "LWC",
+            "Integrations"
+          ]
+        },
+
+        {
+          name:
+            "Data Cloud / Data360",
+
+          evidence: [
+            "GeekSoft Data360 implementation readiness",
+            "GeekSoft recruitment AI project",
+            "Malaysian banking engagement",
+            "Inmar Intelligence analytics work"
+          ],
+
+          technologies: [
+            "Data Cloud",
+            "Data360",
+            "Data Unification",
+            "Data Integration",
+            "AI-ready Data"
+          ]
+        }
+      ],
+
+      development: {
+
+        title:
+          "Salesforce Development Stack",
+
+        technologies: [
           "Apex",
-
-        category:
-          "Salesforce / Apex",
-
-        classification:
-          "Public technical project",
-
-        description:
-          "Public Apex framework repository."
+          "Async Apex",
+          "Batch Apex",
+          "Queueable Apex",
+          "Lightning Web Components",
+          "Salesforce Flows",
+          "SOQL",
+          "SOSL",
+          "Salesforce APIs",
+          "Apex Callouts",
+          "Platform Events",
+          "SFDX",
+          "VS Code"
+        ]
       },
 
+      ai: {
 
-      {
-        name:
-          "mohitpeshwani",
+        title:
+          "Salesforce AI / Agentforce Stack",
 
-        url:
-          "https://github.com/mohitpeshwani/mohitpeshwani",
+        technologies: [
+          "Agentforce",
+          "Agent Builder",
+          "Agent Actions",
+          "Prompt Engineering",
+          "Prompt Builder",
+          "Einstein AI",
+          "Salesforce Knowledge",
+          "AI-powered Flows",
+          "Data Cloud grounding",
+          "Agentic Workflows"
+        ],
 
-        language:
-          "Config",
-
-        category:
-          "GitHub Profile",
-
-        classification:
-          "Profile repository",
-
-        description:
-          "GitHub profile configuration repository."
+        projectEvidence: [
+          "AI-Powered Recruitment Management System",
+          "Malaysian Banking AI & Compliance Solution",
+          "Agentic AI Property Manager",
+          "Agentic AI Banking Query Handler"
+        ]
       },
 
+      analytics: {
 
-      {
-        name:
-          "TranslationsToAnotherLanguageHuggingFace",
+        title:
+          "Salesforce Analytics Stack",
 
-        url:
-          "https://github.com/mohitpeshwani/TranslationsToAnotherLanguageHuggingFace",
+        technologies: [
+          "CRM Analytics",
+          "Einstein Discovery",
+          "Data Recipes",
+          "Dashboards",
+          "Predictive Models",
+          "Pipeline Analytics",
+          "Opportunity Analytics",
+          "Win-rate Analysis",
+          "Scheduled Data Tracking",
+          "Data Cloud"
+        ],
 
-        language:
+        projectEvidence: [
+          "Inmar Intelligence analytics work",
+          "CRM Analytics & Einstein Discovery project"
+        ]
+      },
+
+      tableau: {
+
+        title:
+          "Tableau Stack",
+
+        technologies: [
+          "Tableau",
+          "Dashboard Development",
+          "Data Visualization",
+          "Business Analytics",
+          "Data Storytelling"
+        ],
+
+        relationship:
+          "Tableau is treated as a separate analytics stack from Salesforce CRM Analytics and Einstein Discovery."
+      },
+
+      integration: {
+
+        title:
+          "Salesforce Integration Stack",
+
+        technologies: [
+          "REST APIs",
+          "Webhooks",
+          "Apex Callouts",
+          "External APIs",
+          "Payment APIs",
+          "WhatsApp Integrations",
+          "Cashfree API",
+          "Postman"
+        ]
+      },
+
+      security: {
+
+        title:
+          "Salesforce Security & Access",
+
+        technologies: [
+          "Profiles",
+          "Permission Sets",
+          "Field-Level Security",
+          "Object-Level Security",
+          "Record Access"
+        ],
+
+        evidence: [
+          "Boston University Recruitment Manager",
+          "Enterprise Salesforce implementations"
+        ]
+      }
+    },
+
+    generic: {
+
+      overview:
+        "Outside Salesforce, Mohit's stack spans AI engineering, machine learning, data analytics, Python/backend development, APIs, automation, testing and web development.",
+
+      aiEngineering: {
+
+        title:
+          "Generic AI Engineering Stack",
+
+        technologies: [
+          "Generative AI",
+          "AI Agents",
+          "Agentic AI",
+          "LLM Applications",
+          "Prompt Engineering",
+          "Hugging Face",
+          "LangFlow",
+          "AI APIs",
+          "AI Workflow Design"
+        ]
+      },
+
+      machineLearning: {
+
+        title:
+          "Machine Learning Stack",
+
+        technologies: [
           "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "TensorFlow",
+          "Feature Engineering",
+          "Model Evaluation",
+          "Classification",
+          "Predictive Modeling",
+          "Flask"
+        ],
 
-        category:
-          "AI / NLP",
-
-        classification:
-          "Public project",
-
-        description:
-          "FastAPI and Hugging Face deployment demonstration."
+        projects: [
+          "Crowdfunding Campaign Success Prediction",
+          "Kickstarter Prediction System",
+          "Email Spam Detection",
+          "Emotion Analysis using Computer Vision"
+        ]
       },
 
+      dataAnalytics: {
 
-      {
-        name:
-          "Apex-DataStructures",
+        title:
+          "Generic Data Analytics Stack",
 
-        url:
-          "https://github.com/mohitpeshwani/Apex-DataStructures",
-
-        language:
-          "Apex / OpenEdge ABL",
-
-        category:
-          "Salesforce / Learning",
-
-        classification:
-          "Learning / reference project",
-
-        description:
-          "Data-structure examples and educational material using Apex concepts."
-      },
-
-
-      {
-        name:
-          "ankaraAI",
-
-        url:
-          "https://github.com/mohitpeshwani/ankaraAI",
-
-        language:
-          "JavaScript",
-
-        category:
-          "AI / Experimentation",
-
-        classification:
-          "Public repository",
-
-        description:
-          "Public AI-related experimentation repository."
-      },
-
-
-      {
-        name:
-          "WebDevelopmentPracticeHTMLCSSJS",
-
-        url:
-          "https://github.com/mohitpeshwani/WebDevelopmentPracticeHTMLCSSJS",
-
-        language:
-          "HTML",
-
-        category:
-          "Web Development",
-
-        classification:
-          "Practice project",
-
-        description:
-          "HTML, CSS and JavaScript development practice."
-      },
-
-
-      {
-        name:
-          "Django3Projects",
-
-        url:
-          "https://github.com/mohitpeshwani/Django3Projects",
-
-        language:
-          "HTML",
-
-        category:
-          "Web Development",
-
-        classification:
-          "Learning / practice project",
-
-        description:
-          "Django-related development projects."
-      },
-
-
-      {
-        name:
-          "TicTacToeLogicBuilding",
-
-        url:
-          "https://github.com/mohitpeshwani/TicTacToeLogicBuilding",
-
-        language:
-          "Java",
-
-        category:
-          "Programming Fundamentals",
-
-        classification:
-          "Practice project",
-
-        description:
-          "Tic-Tac-Toe logic-building implementation."
-      },
-
-
-      {
-        name:
-          "BMICalculator",
-
-        url:
-          "https://github.com/mohitpeshwani/BMICalculator",
-
-        language:
-          "Java",
-
-        category:
-          "Programming Fundamentals",
-
-        classification:
-          "Practice project",
-
-        description:
-          "BMI calculator implementation."
-      },
-
-
-      {
-        name:
-          "BasicViews",
-
-        url:
-          "https://github.com/mohitpeshwani/BasicViews",
-
-        language:
-          "Java",
-
-        category:
-          "Application Development",
-
-        classification:
-          "Practice project",
-
-        description:
-          "Basic application-view implementation."
-      },
-
-
-      {
-        name:
-          "Data-analysis",
-
-        url:
-          "https://github.com/mohitpeshwani/Data-analysis",
-
-        language:
+        technologies: [
+          "Python",
+          "Pandas",
+          "NumPy",
           "Jupyter Notebook",
+          "SQL",
+          "MySQL",
+          "Data Cleaning",
+          "Data Preparation",
+          "Exploratory Data Analysis",
+          "Feature Engineering",
+          "Data Visualization",
+          "Predictive Analytics"
+        ],
 
-        category:
+        projects: [
+          "Data-analysis",
+          "Kickstarter prediction work",
+          "Email spam detection"
+        ]
+      },
+
+      backendAndApi: {
+
+        title:
+          "Backend & API Engineering Stack",
+
+        technologies: [
+          "Python",
+          "FastAPI",
+          "Flask",
+          "REST APIs",
+          "HTTP APIs",
+          "API Integration",
+          "Webhooks",
+          "JSON",
+          "Postman"
+        ],
+
+        projects: [
+          "TranslationsToAnotherLanguageHuggingFace",
+          "Python API work",
+          "Salesforce integration work"
+        ]
+      },
+
+      python: {
+
+        title:
+          "Python Stack",
+
+        technologies: [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "scikit-learn",
+          "TensorFlow",
+          "Flask",
+          "FastAPI",
+          "BeautifulSoup",
+          "Selenium",
+          "Jupyter Notebook",
+          "API Development",
+          "Automation"
+        ]
+      },
+
+      programmingLanguages: {
+
+        title:
+          "Programming Languages",
+
+        technologies: [
+          "Python",
+          "Apex",
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "SQL"
+        ]
+      },
+
+      automationAndTesting: {
+
+        title:
+          "Automation & Testing Stack",
+
+        technologies: [
+          "Selenium",
+          "Robot Framework",
+          "Python",
+          "BDD",
+          "API Testing",
+          "Test Automation"
+        ]
+      },
+
+      webDevelopment: {
+
+        title:
+          "Web Development Stack",
+
+        technologies: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Django",
+          "Flask",
+          "FastAPI"
+        ]
+      },
+
+      dataEngineeringAndIntegration: {
+
+        title:
+          "Data Engineering & Integration Stack",
+
+        technologies: [
+          "SQL",
+          "MySQL",
+          "REST APIs",
+          "Webhooks",
+          "CSV",
+          "Amazon S3",
+          "Salesforce Data Cloud",
+          "Data Integration",
+          "Data Mapping",
+          "Data Migration"
+        ]
+      },
+
+      developerTools: {
+
+        title:
+          "Developer & Engineering Tools",
+
+        technologies: [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "SFDX",
+          "Postman",
+          "Jupyter Notebook"
+        ]
+      }
+    },
+
+    individualQuestions: [
+
+      {
+        id:
+          "salesforce-clouds",
+
+        label:
+          "Salesforce Clouds",
+
+        question:
+          "Which Salesforce Clouds has Mohit worked with?",
+
+        source:
+          "techStack.salesforce.clouds"
+      },
+
+      {
+        id:
+          "salesforce-development",
+
+        label:
+          "Salesforce Development",
+
+        question:
+          "What is Mohit's Salesforce development stack?",
+
+        source:
+          "techStack.salesforce.development"
+      },
+
+      {
+        id:
+          "salesforce-ai",
+
+        label:
+          "Salesforce AI",
+
+        question:
+          "What Salesforce AI and Agentforce technologies does Mohit work with?",
+
+        source:
+          "techStack.salesforce.ai"
+      },
+
+      {
+        id:
+          "salesforce-analytics",
+
+        label:
+          "Salesforce Analytics",
+
+        question:
+          "What is Mohit's Salesforce analytics stack?",
+
+        source:
+          "techStack.salesforce.analytics"
+      },
+
+      {
+        id:
+          "tableau",
+
+        label:
+          "Tableau",
+
+        question:
+          "What Tableau work and skills does Mohit have?",
+
+        source:
+          "techStack.salesforce.tableau"
+      },
+
+      {
+        id:
+          "salesforce-integration",
+
+        label:
+          "Salesforce Integrations",
+
+        question:
+          "What Salesforce integration technologies does Mohit use?",
+
+        source:
+          "techStack.salesforce.integration"
+      },
+
+      {
+        id:
+          "salesforce-security",
+
+        label:
+          "Salesforce Security",
+
+        question:
+          "What Salesforce security and access experience does Mohit have?",
+
+        source:
+          "techStack.salesforce.security"
+      },
+
+      {
+        id:
+          "generic-ai",
+
+        label:
+          "Generic AI",
+
+        question:
+          "What is Mohit's generic AI technology stack outside Salesforce?",
+
+        source:
+          "techStack.generic.aiEngineering"
+      },
+
+      {
+        id:
+          "machine-learning",
+
+        label:
+          "Machine Learning",
+
+        question:
+          "What machine learning technologies and projects has Mohit worked on?",
+
+        source:
+          "techStack.generic.machineLearning"
+      },
+
+      {
+        id:
+          "data-analytics",
+
+        label:
           "Data Analytics",
 
-        classification:
-          "Public project",
+        question:
+          "What is Mohit's generic data analytics stack?",
 
-        description:
-          "Public data-analysis notebooks and experimentation."
+        source:
+          "techStack.generic.dataAnalytics"
       },
 
-
       {
-        name:
-          "StickyNotes",
+        id:
+          "python",
 
-        url:
-          "https://github.com/mohitpeshwani/StickyNotes",
-
-        language:
-          "Java",
-
-        category:
-          "Application Development",
-
-        classification:
-          "Practice project",
-
-        description:
-          "Sticky Notes application."
-      },
-
-
-      {
-        name:
-          "python_basics_examples",
-
-        url:
-          "https://github.com/mohitpeshwani/python_basics_examples",
-
-        language:
-          "Jupyter Notebook",
-
-        category:
-          "Python / Learning",
-
-        classification:
-          "Learning repository",
-
-        description:
-          "Python fundamentals and examples."
-      },
-
-
-      {
-        name:
-          "LearningRobotFrameworkBasicsOnPortfolioAndFreeAPIS",
-
-        url:
-          "https://github.com/mohitpeshwani/LearningRobotFrameworkBasicsOnPortfolioAndFreeAPIS",
-
-        language:
-          "RobotFramework",
-
-        category:
-          "Automation Testing",
-
-        classification:
-          "Learning / automation project",
-
-        description:
-          "Robot Framework and API automation learning work."
-      },
-
-
-      {
-        name:
-          "DataStrucutresAndAlgoInJava",
-
-        url:
-          "https://github.com/mohitpeshwani/DataStrucutresAndAlgoInJava",
-
-        language:
-          "Java",
-
-        category:
-          "DSA",
-
-        classification:
-          "Learning repository",
-
-        description:
-          "Data structures and algorithms practice in Java."
-      },
-
-
-      {
-        name:
-          "BDD-with-my-portfolio-website",
-
-        url:
-          "https://github.com/mohitpeshwani/BDD-with-my-portfolio-website",
-
-        language:
+        label:
           "Python",
 
-        category:
-          "Testing / BDD",
+        question:
+          "What Python technologies and projects does Mohit have?",
 
-        classification:
-          "Automation project",
-
-        description:
-          "Behavior-driven development work associated with portfolio automation."
+        source:
+          "techStack.generic.python"
       },
 
-
       {
-        name:
-          "Python-Scripts",
+        id:
+          "fastapi-backend",
 
-        url:
-          "https://github.com/mohitpeshwani/Python-Scripts",
+        label:
+          "FastAPI & Backend",
 
-        language:
-          "Python",
+        question:
+          "What FastAPI, Flask and backend API work has Mohit done?",
 
-        category:
-          "Python / Automation",
-
-        classification:
-          "Forked repository",
-
-        forked:
-          true,
-
-        description:
-          "Collection of Python scripts. GitHub identifies this repository as forked."
+        source:
+          "techStack.generic.backendAndApi"
       },
 
-
       {
-        name:
-          "Selenium_driver_with_python",
+        id:
+          "automation",
 
-        url:
-          "https://github.com/mohitpeshwani/Selenium_driver_with_python",
+        label:
+          "Automation & Testing",
 
-        language:
-          "Python",
+        question:
+          "What automation and testing technologies has Mohit worked with?",
 
-        category:
-          "Test Automation",
-
-        classification:
-          "Public project",
-
-        description:
-          "Python and Selenium automation work."
+        source:
+          "techStack.generic.automationAndTesting"
       },
 
-
       {
-        name:
-          "chrome",
+        id:
+          "web-development",
 
-        url:
-          "https://github.com/mohitpeshwani/chrome",
+        label:
+          "Web Development",
 
-        language:
-          "TypeScript",
+        question:
+          "What web-development technologies and projects has Mohit worked on?",
 
-        category:
-          "Browser / Infrastructure",
-
-        classification:
-          "Forked repository",
-
-        forked:
-          true,
-
-        description:
-          "Fork of browserless Chrome service repository."
+        source:
+          "techStack.generic.webDevelopment"
       },
 
-
       {
-        name:
-          "rahuldkjain",
+        id:
+          "programming-languages",
 
-        url:
-          "https://github.com/mohitpeshwani/rahuldkjain",
+        label:
+          "Programming Languages",
 
-        category:
-          "GitHub / Frontend",
+        question:
+          "Which programming languages does Mohit work with?",
 
-        classification:
-          "Forked repository",
-
-        forked:
-          true,
-
-        description:
-          "Forked GitHub profile repository."
+        source:
+          "techStack.generic.programmingLanguages"
       },
 
-
       {
-        name:
-          "email-spam-detection",
+        id:
+          "developer-tools",
 
-        url:
-          "https://github.com/mohitpeshwani/email-spam-detection",
+        label:
+          "Developer Tools",
 
-        language:
-          "Jupyter Notebook",
+        question:
+          "What developer tools does Mohit use?",
 
-        category:
-          "Machine Learning",
-
-        classification:
-          "Public project",
-
-        description:
-          "Email spam detection machine-learning/data-analysis project."
-      },
-
-
-      {
-        name:
-          "kickstarter-engine",
-
-        url:
-          "https://github.com/mohitpeshwani/kickstarter-engine",
-
-        language:
-          "Jupyter Notebook",
-
-        category:
-          "Machine Learning / Data",
-
-        classification:
-          "Public project",
-
-        description:
-          "Kickstarter-related data and prediction work."
-      },
-
-
-      {
-        name:
-          "Srapping-HTML-table-into-csv-using-BeautifulSoup",
-
-        url:
-          "https://github.com/mohitpeshwani/Srapping-HTML-table-into-csv-using-BeautifulSoup",
-
-        language:
-          "Jupyter Notebook",
-
-        category:
-          "Web Scraping / Data",
-
-        classification:
-          "Public project",
-
-        description:
-          "HTML table scraping and CSV extraction using BeautifulSoup."
-      },
-
-
-      {
-        name:
-          "HTML-page-scrapper",
-
-        url:
-          "https://github.com/mohitpeshwani/HTML-page-scrapper",
-
-        language:
-          "HTML",
-
-        category:
-          "Web Scraping",
-
-        classification:
-          "Public project",
-
-        description:
-          "HTML page scraping experimentation."
-      },
-
-
-      {
-        name:
-          "DSA",
-
-        url:
-          "https://github.com/mohitpeshwani/DSA",
-
-        language:
-          "Java",
-
-        category:
-          "DSA",
-
-        classification:
-          "Learning repository",
-
-        description:
-          "Data structures and algorithms practice."
-      },
-
-
-      {
-        name:
-          "Kickstarter-prediction-system",
-
-        url:
-          "https://github.com/mohitpeshwani/Kickstarter-prediction-system",
-
-        language:
-          "Jupyter Notebook",
-
-        category:
-          "Machine Learning",
-
-        classification:
-          "Public project",
-
-        description:
-          "Kickstarter prediction-system project."
-      },
-
-
-      {
-        name:
-          "Rock-Paper-scissor-Game",
-
-        url:
-          "https://github.com/mohitpeshwani/Rock-Paper-scissor-Game",
-
-        language:
-          "Java",
-
-        category:
-          "Programming Fundamentals",
-
-        classification:
-          "Practice project",
-
-        description:
-          "Rock-Paper-Scissors game implementation."
-      },
-
-
-      {
-        name:
-          "Suveen-Consultans-UI-UX-HTML-and-CSS",
-
-        url:
-          "https://github.com/mohitpeshwani/Suveen-Consultans-UI-UX-HTML-and-CSS",
-
-        language:
-          "HTML",
-
-        category:
-          "UI / Frontend",
-
-        classification:
-          "Practice project",
-
-        description:
-          "UI/UX and frontend work using HTML and CSS."
-      },
-
-
-      {
-        name:
-          "Emotion-Analysis-Using-Computer-Vision",
-
-        url:
-          "https://github.com/mohitpeshwani/Emotion-Analysis-Using-Computer-Vision",
-
-        language:
-          "PowerShell",
-
-        category:
-          "AI / Computer Vision",
-
-        classification:
-          "Public project",
-
-        description:
-          "Emotion-analysis project involving computer-vision concepts."
+        source:
+          "techStack.generic.developerTools"
       }
-    ],
-
-    liveProfileRule:
-      "When the user asks for the latest complete GitHub repository list, direct them to the live GitHub profile because repository count and repository contents can change."
-  },
-
-
-  // ==========================================================
-  // TOPMATE JOURNEY
-  // ==========================================================
-
-  topmateJourney: {
-
-    title:
-      "Topmate Mentorship Journey",
-
-    profileUrl:
-      "https://topmate.io/mohitpeshwani",
-
-    rating:
-      "5.0 ★★★★★",
-
-    identity:
-      "Mohit is a 5-star rated mentor using Topmate to help aspiring engineers and professionals.",
-
-    journey:
-      "Mohit uses Topmate for practical technical and career mentorship across Salesforce, software development, career transitions and data/AI topics.",
-
-    mentoringAreas: [
-
-      "Salesforce Development",
-      "Apex",
-      "Lightning Web Components",
-      "Salesforce Career Guidance",
-      "Career Transitions",
-      "Resume Reviews",
-      "Technical Mock Interviews",
-      "Project Guidance",
-      "Data Analytics",
-      "Academic Mentorship"
-    ],
-
-    whatItDemonstrates: [
-
-      "Technical communication",
-      "Mentoring ability",
-      "Problem decomposition",
-      "Career guidance",
-      "Ability to explain complex concepts simply"
-    ],
-
-    separateFromEmployment:
-      true,
-
-    agentRule:
-      "Topmate should always be treated as a separate mentorship/community journey and must not be merged into employment history."
-  },
-
-
-  // ==========================================================
-  // YOUTUBE JOURNEY
-  // ==========================================================
-
-  youtubeJourney: {
-
-    title:
-      "CrazyProgrammer / Mohit Peshwani",
-
-    channelUrl:
-      "https://www.youtube.com/channel/UCDf9dY5N1UAE9bZ5CkPOrnQ",
-
-    website:
-      "https://mohitpeshwani.github.io/crazyprogrammer/",
-
-    identity:
-      "Mohit's public technical education and knowledge-sharing journey.",
-
-    topics: [
-
-      "Salesforce",
-      "Apex",
-      "LWC",
-      "Agentforce",
-      "Python",
-      "Data Analytics",
-      "Software Development",
-      "Programming Fundamentals"
-    ],
-
-    journey:
-      "Mohit's YouTube presence complements his engineering work by turning practical software and Salesforce knowledge into educational content.",
-
-    whatItDemonstrates: [
-
-      "Public technical communication",
-      "Teaching ability",
-      "Knowledge sharing",
-      "Developer-community engagement",
-      "Technical explanation"
-    ],
-
-    separateFromEmployment:
-      true,
-
-    agentRule:
-      "YouTube should always be treated as a separate creator and education journey. Do not present YouTube content as employment experience."
-  },
-
-
-  // ==========================================================
-  // FDE JOURNEY
-  // ==========================================================
-
-  fdeJourney: {
-
-    title:
-      "Forward Deployed Engineer Journey",
-
-    status:
-      "Emerging / actively developing",
-
-    currentPositioning:
-      "Salesforce and AI engineer building toward a broader Forward Deployed Engineer role.",
-
-    description:
-      "Mohit is intentionally expanding beyond traditional Salesforce development into a broader FDE profile combining software engineering, AI, customer problem solving, consulting, rapid prototyping and production implementation.",
-
-    whyThisFits:
-      "His current work combines enterprise Salesforce engineering, Agentforce, Data Cloud, integrations, consulting, customer interaction and technical implementation.",
-
-    currentFoundations: [
-
-      "Enterprise Salesforce Engineering",
-      "Agentforce",
-      "Data Cloud / Data360",
-      "AI Agent Workflows",
-      "REST APIs",
-      "Enterprise Integrations",
-      "Automation",
-      "Architecture Thinking",
-      "Stakeholder Management",
-      "Technical Consulting",
-      "Rapid Problem Solving"
-    ],
-
-    growthAreas: [
-
-      "AI Engineering",
-      "RAG",
-      "LLM Application Engineering",
-      "Python Backend Engineering",
-      "Cloud Deployment",
-      "Production AI Systems",
-      "Observability",
-      "Evaluation",
-      "Customer Discovery",
-      "System Design"
-    ],
-
-    transferableStrengths: [
-
-      "Customer problem solving",
-      "Business-to-technology translation",
-      "Technical discovery",
-      "Enterprise implementation",
-      "AI-powered workflows",
-      "Data integration",
-      "Cross-functional communication"
-    ],
-
-    positioning:
-      "Describe Mohit as an emerging Forward Deployed Engineer. Never state that he currently holds an FDE job title unless a future verified experience record says so."
-  },
-
-
-  // ==========================================================
-  // ALL PROJECTS INDEX
-  // ==========================================================
-
-  allProjectsView: {
-
-    description:
-      "Unified view across professional projects, independent portfolio projects and public GitHub repositories.",
-
-    categories: [
-
-      {
-        id:
-          "geeksoft",
-
-        label:
-          "🏢 GeekSoft Projects",
-
-        source:
-          "geeksoftProjects"
-      },
-
-
-      {
-        id:
-          "professional",
-
-        label:
-          "💼 Professional Projects",
-
-        source:
-          "professionalProjects"
-      },
-
-
-      {
-        id:
-          "independent",
-
-        label:
-          "🧪 Independent Projects",
-
-        source:
-          "individualProjects"
-      },
-
-
-      {
-        id:
-          "github",
-
-        label:
-          "🐙 GitHub Projects",
-
-        source:
-          "githubProjects.repositories"
-      }
-    ],
-
-    displayRules: [
-
-      "When the user asks for all projects, combine the relevant categories.",
-      "Always show the project source/type.",
-      "Keep employer projects separate from personal projects.",
-      "Keep GitHub repositories separate from employment history.",
-      "Mark learning and practice repositories clearly.",
-      "Mark forked repositories clearly.",
-      "Never disclose confidential client information."
     ]
   },
-
-
-  // ==========================================================
-  // TECHNICAL BREADTH
-  // ==========================================================
-
-  technicalBreadth: {
-
-    summary:
-      "Mohit has broad exposure across Salesforce engineering, AI, data analytics, software development, automation, testing, integrations and developer tooling.",
-
-    technologies: [
-
-      "Salesforce",
-      "Apex",
-      "Async Apex",
-      "LWC",
-      "Flows",
-      "Agentforce",
-      "Data Cloud",
-      "Data360",
-      "CRM Analytics",
-      "Einstein Discovery",
-      "Einstein AI",
-      "Tableau",
-      "Python",
-      "Pandas",
-      "NumPy",
-      "scikit-learn",
-      "TensorFlow",
-      "Hugging Face",
-      "FastAPI",
-      "SQL",
-      "MySQL",
-      "Java",
-      "JavaScript",
-      "TypeScript",
-      "REST APIs",
-      "Git",
-      "GitHub",
-      "SFDX",
-      "VS Code",
-      "Postman",
-      "Selenium",
-      "Robot Framework",
-      "BeautifulSoup",
-      "Web Development",
-      "Machine Learning",
-      "Data Analytics",
-      "Testing Automation"
-    ],
-
-    positioning:
-      "Technical breadth should be presented as exposure and demonstrated work. Do not claim expert-level professional experience in every technology."
-  },
-
-
-  // ==========================================================
-  // CAPABILITY -> EVIDENCE
-  // ==========================================================
-
-  capabilityEvidence: [
-
-    {
-      capability:
-        "Agentforce & AI",
-
-      evidence: [
-
-        "GeekSoft AI-Powered Recruitment Management System",
-        "GeekSoft Malaysian Banking AI & Compliance Solution",
-        "Agentic AI Property Manager",
-        "Agentic AI Banking Query Handler",
-        "Salesforce AI Specialist certification"
-      ]
-    },
-
-
-    {
-      capability:
-        "Data Cloud / Data360",
-
-      evidence: [
-
-        "GeekSoft Recruitment Management System",
-        "GeekSoft Malaysian Banking engagement",
-        "Inmar Intelligence analytics work",
-        "CRM Analytics project"
-      ]
-    },
-
-
-    {
-      capability:
-        "Salesforce Engineering",
-
-      evidence: [
-
-        "Apex",
-        "Async Apex",
-        "LWC",
-        "Flows",
-        "Experience Cloud",
-        "Platform Developer I",
-        "Platform Developer II",
-        "Enterprise Salesforce projects"
-      ]
-    },
-
-
-    {
-      capability:
-        "Data & Analytics",
-
-      evidence: [
-
-        "CRM Analytics",
-        "Einstein Discovery",
-        "Data Cloud",
-        "SQL",
-        "Python",
-        "Tableau"
-      ]
-    },
-
-
-    {
-      capability:
-        "Enterprise Consulting",
-
-      evidence: [
-
-        "GeekSoft",
-        "Delbridge Solutions",
-        "Stakeholder management",
-        "Architecture standards",
-        "Implementation readiness",
-        "Customer-facing engagements"
-      ]
-    },
-
-
-    {
-      capability:
-        "BFSI / Banking",
-
-      evidence: [
-
-        "Malaysian banking engagement",
-        "Agentic AI Banking Query Handler",
-        "Compliance-oriented solution work"
-      ]
-    },
-
-
-    {
-      capability:
-        "Teaching & Community",
-
-      evidence: [
-
-        "5-star Topmate mentorship",
-        "CrazyProgrammer YouTube",
-        "Academic mentorship",
-        "Technical education"
-      ]
-    },
-
-
-    {
-      capability:
-        "Forward Deployed Engineering",
-
-      evidence: [
-
-        "Customer-facing consulting",
-        "Enterprise problem solving",
-        "Agentforce",
-        "Data Cloud",
-        "Python",
-        "Cross-technology solutions",
-        "Architecture",
-        "Implementation readiness",
-        "Stakeholder management"
-      ]
-    }
-  ],
-
-
-  // ==========================================================
-  // SKILLS
-  // ==========================================================
 
   skills: {
 
     salesforce: [
-
       {
         name:
-          "Apex & Async Apex",
+          "Apex & Async Apex (Batch, Queueable)",
 
         level:
           "Expert",
@@ -2043,10 +1526,9 @@ const PORTFOLIO_DATA = {
           95
       },
 
-
       {
         name:
-          "Lightning Web Components",
+          "Lightning Web Components (LWC)",
 
         level:
           "Expert",
@@ -2054,7 +1536,6 @@ const PORTFOLIO_DATA = {
         pct:
           94
       },
-
 
       {
         name:
@@ -2067,10 +1548,9 @@ const PORTFOLIO_DATA = {
           92
       },
 
-
       {
         name:
-          "Salesforce Flows & Automation",
+          "Salesforce Flows & Process Automation",
 
         level:
           "Expert",
@@ -2078,7 +1558,6 @@ const PORTFOLIO_DATA = {
         pct:
           96
       },
-
 
       {
         name:
@@ -2092,12 +1571,10 @@ const PORTFOLIO_DATA = {
       }
     ],
 
-
     dataAndAI: [
-
       {
         name:
-          "Python",
+          "Python (Pandas, NumPy, scikit-learn)",
 
         level:
           "Advanced",
@@ -2106,22 +1583,20 @@ const PORTFOLIO_DATA = {
           88
       },
 
-
       {
         name:
-          "Machine Learning",
+          "Einstein Discovery Predictive Models",
 
         level:
           "Advanced",
 
         pct:
-          85
+          86
       },
-
 
       {
         name:
-          "SQL & Data Modeling",
+          "SQL & Relational Data Modeling",
 
         level:
           "Advanced",
@@ -2130,10 +1605,9 @@ const PORTFOLIO_DATA = {
           90
       },
 
-
       {
         name:
-          "Tableau & Analytics",
+          "Tableau & Dashboard Analytics",
 
         level:
           "Advanced",
@@ -2142,10 +1616,9 @@ const PORTFOLIO_DATA = {
           85
       },
 
-
       {
         name:
-          "REST APIs & Integrations",
+          "REST APIs, Integrations & Webhooks",
 
         level:
           "Expert",
@@ -2155,12 +1628,10 @@ const PORTFOLIO_DATA = {
       }
     ],
 
-
     toolsAndDevOps: [
-
       {
         name:
-          "Git & GitHub",
+          "Git, GitHub & Version Control",
 
         level:
           "Expert",
@@ -2169,10 +1640,9 @@ const PORTFOLIO_DATA = {
           92
       },
 
-
       {
         name:
-          "SFDX / VS Code / Postman",
+          "SFDX, VS Code & Postman",
 
         level:
           "Expert",
@@ -2181,18 +1651,16 @@ const PORTFOLIO_DATA = {
           94
       },
 
-
       {
         name:
-          "Agile / Scrum",
+          "Agile/Scrum & Stakeholder Management",
 
         level:
-          "Advanced",
+          "Expert",
 
         pct:
           90
       },
-
 
       {
         name:
@@ -2206,11 +1674,6 @@ const PORTFOLIO_DATA = {
       }
     ]
   },
-
-
-  // ==========================================================
-  // EXPERIENCE
-  // ==========================================================
 
   experience: [
 
@@ -2228,15 +1691,12 @@ const PORTFOLIO_DATA = {
         "Pune, India",
 
       highlights: [
-
         "Oversee end-to-end readiness activities for Data360 and Agentforce implementation.",
-        "Act as liaison between stakeholders, enterprise customers and engineering teams.",
+        "Act as primary liaison between stakeholders, enterprise customers and engineering teams.",
         "Define project timelines, milestones, architecture standards and success criteria.",
-        "Ensure continuous alignment with business objectives and proactively manage dependencies.",
-        "Contribute to AI and data-driven customer engagements."
+        "Ensure continuous alignment with business objectives and proactively manage dependencies."
       ]
     },
-
 
     {
       role:
@@ -2252,15 +1712,13 @@ const PORTFOLIO_DATA = {
         "Pune, India",
 
       highlights: [
-
-        "Ola Krutrim: Streamlined sales operations workflows using Apex, Flows and LWC.",
-        "Samiti: Built hostel admission portal using Experience Cloud, Cashfree and WhatsApp.",
-        "Real Estate CRM & FSL: Refactored data models and implemented Field Service scheduling.",
+        "Ola Krutrim: Streamlined sales operations workflows using Apex, Flows and LWC, reducing manual effort by 30%.",
+        "Samiti: Built hostel admission portal in Experience Cloud with Cashfree payments and WhatsApp alerts.",
+        "Real Estate CRM & FSL: Refactored data models and implemented Field Service Lightning scheduling.",
         "Inmar Intelligence: Built CRM Analytics dashboards and Einstein Discovery predictive models.",
         "Emerson Commerce Cloud: Worked on Salesforce Payments Adapter, tokenization, authorization and payment orchestration."
       ]
     },
-
 
     {
       role:
@@ -2276,13 +1734,11 @@ const PORTFOLIO_DATA = {
         "Remote / Hybrid",
 
       highlights: [
-
         "Architected and deployed Salesforce solutions for Boston University Admissions & Recruiting.",
         "Reduced admissions processing turnaround by 70% through Flow automation redesign.",
         "Managed complex access, profiles and security configurations."
       ]
     },
-
 
     {
       role:
@@ -2298,18 +1754,12 @@ const PORTFOLIO_DATA = {
         "Mumbai, India",
 
       highlights: [
-
         "Supported Salesforce CRM migration associated with BrowserStack's Percy acquisition.",
         "Worked on deduplication and field mapping.",
         "Built REST API integrations for customer analytics and product telemetry."
       ]
     }
   ],
-
-
-  // ==========================================================
-  // EDUCATION
-  // ==========================================================
 
   education: [
 
@@ -2327,7 +1777,6 @@ const PORTFOLIO_DATA = {
         "Advanced machine learning, neural networks, AI agent architectures and big data systems."
     },
 
-
     {
       degree:
         "Bachelor of Engineering (Computer Engineering)",
@@ -2341,7 +1790,6 @@ const PORTFOLIO_DATA = {
       details:
         "Data structures, algorithms, DBMS, operating systems and object-oriented programming."
     },
-
 
     {
       degree:
@@ -2358,13 +1806,7 @@ const PORTFOLIO_DATA = {
     }
   ],
 
-
-  // ==========================================================
-  // CERTIFICATIONS
-  // ==========================================================
-
   certificationsList: [
-
     "Salesforce Platform Developer I",
     "Salesforce Platform Developer II",
     "Salesforce App Builder",
@@ -2376,9 +1818,7 @@ const PORTFOLIO_DATA = {
     "SPIFF Certified"
   ],
 
-
   certifications: [
-
     {
       name:
         "Salesforce AI Specialist",
@@ -2387,9 +1827,8 @@ const PORTFOLIO_DATA = {
         "AI",
 
       relevance:
-        "Relevant to Salesforce AI and Agentforce capabilities."
+        "Demonstrates Salesforce AI and Agentforce-related capabilities."
     },
-
 
     {
       name:
@@ -2399,9 +1838,8 @@ const PORTFOLIO_DATA = {
         "Data",
 
       relevance:
-        "Relevant to Data Cloud/Data360 implementation and data architecture."
+        "Supports Data Cloud/Data360 implementation and data architecture."
     },
-
 
     {
       name:
@@ -2414,7 +1852,6 @@ const PORTFOLIO_DATA = {
         "Demonstrates advanced Salesforce development capability."
     },
 
-
     {
       name:
         "Salesforce Platform Developer I",
@@ -2425,7 +1862,6 @@ const PORTFOLIO_DATA = {
       relevance:
         "Demonstrates Salesforce development fundamentals."
     },
-
 
     {
       name:
@@ -2438,7 +1874,6 @@ const PORTFOLIO_DATA = {
         "Supports Salesforce application and declarative design capabilities."
     },
 
-
     {
       name:
         "Salesforce AI Associate",
@@ -2449,7 +1884,6 @@ const PORTFOLIO_DATA = {
       relevance:
         "Demonstrates foundational Salesforce AI knowledge."
     },
-
 
     {
       name:
@@ -2463,10 +1897,41 @@ const PORTFOLIO_DATA = {
     }
   ],
 
+  mentorshipAndCommunity: {
 
-  // ==========================================================
-  // ACHIEVEMENTS
-  // ==========================================================
+    topmate: {
+
+      rating:
+        "5.0 ★★★★★",
+
+      title:
+        "Topmate 5-Star Rated Mentor",
+
+      description:
+        "Mentored aspiring engineers and students in Salesforce development, Apex, LWC, career transitions and data analytics."
+    },
+
+    academics: {
+
+      title:
+        "Academic Mentorship & Guidance",
+
+      description:
+        "Mentored college students and juniors in computer engineering fundamentals, OOPs, data structures and practical industry project implementations."
+    },
+
+    youtube: {
+
+      channel:
+        "CrazyProgrammer / Mohit Peshwani",
+
+      focus:
+        "Educational tutorials on Salesforce, Apex, LWC, Agentforce, Python, data analytics and software development.",
+
+      url:
+        "https://www.youtube.com/channel/UCDf9dY5N1UAE9bZ5CkPOrnQ"
+    }
+  },
 
   achievements: [
 
@@ -2475,57 +1940,63 @@ const PORTFOLIO_DATA = {
         "ach-topmate",
 
       title:
-        "5-Star Topmate Mentor",
+        "5-Star Rated Topmate Mentor & Educator",
 
       category:
-        "Mentorship",
+        "Mentorship & Community",
+
+      icon:
+        "⭐",
 
       metric:
-        "5.0 ★★★★★",
+        "5.0 ★ Rating",
 
       description:
-        "Mentors aspiring engineers and professionals in Salesforce, development, career transitions and technical problem solving.",
+        "Guided students and professionals in Salesforce careers, resume reviews, technical mock interviews and academic project roadmaps.",
 
       link:
         "https://topmate.io/mohitpeshwani"
     },
-
 
     {
       id:
         "ach-boston",
 
       title:
-        "Admissions Processing Automation",
+        "Reduced Admissions Processing Time by 70%",
 
       category:
         "Enterprise Impact",
+
+      icon:
+        "🚀",
 
       metric:
         "70% Faster",
 
       description:
-        "Reduced admissions processing turnaround through Salesforce automation redesign."
+        "Architected and deployed Salesforce automation and Flow redesign for Boston University Admissions & Recruiting."
     },
-
 
     {
       id:
         "ach-ola",
 
       title:
-        "Sales Operations Optimization",
+        "Streamlined Sales Operations at Ola Krutrim",
 
       category:
         "Production Impact",
+
+      icon:
+        "⚡",
 
       metric:
         "30% Effort Reduction",
 
       description:
-        "Reduced manual intervention in sales operations workflows."
+        "Optimized sales operations workflows using Apex, Flows and LWC."
     },
-
 
     {
       id:
@@ -2537,13 +2008,15 @@ const PORTFOLIO_DATA = {
       category:
         "Implementation Impact",
 
+      icon:
+        "🚀",
+
       metric:
         "40% Faster",
 
       description:
-        "Reduced processing turnaround through Experience Cloud, payment and notification automation."
+        "Reduced processing turnaround through Experience Cloud, payments and communication automation."
     },
-
 
     {
       id:
@@ -2555,171 +2028,248 @@ const PORTFOLIO_DATA = {
       category:
         "Community",
 
+      icon:
+        "🎥",
+
       metric:
         "Active Creator",
 
       description:
-        "Creates educational content across Salesforce, Agentforce, Python, data and software development.",
-
-      link:
-        "https://www.youtube.com/channel/UCDf9dY5N1UAE9bZ5CkPOrnQ"
+        "Creates educational content across Salesforce, Agentforce, Python, data and software development."
     }
   ],
 
-
   // ==========================================================
-  // AGENT BEHAVIOR
+  // FINAL AGENT RULES
   // ==========================================================
 
-  agentInstructions: {
+  finalAgentRules: {
 
-    identity:
-      "You are CrazyBot, the professional AI representative for Mohit Peshwani. Represent his experience accurately, confidently and professionally.",
-
-    priorities: [
-
-      "Answer the user's question directly.",
-      "Use current GeekSoft information for present-role questions.",
-      "Use project evidence for technical questions.",
-      "Use business impact wherever available.",
-      "Use GitHub for public technical breadth.",
-      "Use Topmate for mentoring and career guidance.",
-      "Use YouTube for public technical education.",
-      "Use FDE positioning when discussing future career direction."
+    answerStyle: [
+      "Be concise for simple questions.",
+      "Be detailed for recruiter, client and technical questions.",
+      "Lead with the answer, then give evidence.",
+      "Prefer projects and measurable impact over generic claims.",
+      "Use current GeekSoft experience for current-role questions.",
+      "Use independentProjects for personal portfolio work.",
+      "Use githubProjectCatalog for broad public repository questions.",
+      "Use techStack for technology-specific questions.",
+      "Use topmateJourney only for mentorship questions.",
+      "Use youtubeJourney only for YouTube/content questions.",
+      "Use fdeJourney for FDE-related questions."
     ],
 
-    audienceModes: {
-
-      recruiter:
-        "Prioritize role, experience, relevant projects, certifications, measurable impact and fit.",
-
-      client:
-        "Prioritize customer problems, solution design, technologies, business value and implementation capability.",
-
-      technicalInterviewer:
-        "Prioritize architecture, Apex, LWC, Agentforce, Data Cloud, integrations and engineering decisions.",
-
-      student:
-        "Prioritize career journey, learning, mentorship, projects and practical engineering advice.",
-
-      community:
-        "Prioritize Topmate, YouTube, teaching, knowledge sharing and developer-community involvement."
-    },
-
-    informationSeparationRules: [
-
-      "GeekSoft projects belong to professional work.",
-      "Areya, Delbridge and BrowserStack projects belong to professional work.",
-      "Independent Projects are personal/portfolio work unless explicitly identified otherwise.",
-      "GitHub repositories are public technical repositories and are not automatically professional projects.",
-      "Topmate is a mentorship journey.",
-      "YouTube is an education/content journey.",
-      "FDE is an emerging career direction.",
-      "Do not merge independent projects into employment history.",
-      "Do not merge Topmate or YouTube into employment history."
+    noHallucination: [
+      "Never invent a company.",
+      "Never invent a client.",
+      "Never invent a project.",
+      "Never invent a metric.",
+      "Never invent a certification.",
+      "Never claim a GitHub fork as original work.",
+      "Never expose confidential client details.",
+      "Never say Mohit currently holds an FDE title unless explicitly added to employment data."
     ],
 
-    evidenceRules: [
-
-      "Use confirmed data first.",
-      "Never invent clients.",
-      "Never invent project metrics.",
-      "Never invent certifications.",
-      "Never invent responsibilities.",
-      "Never invent repository ownership.",
-      "Never claim forked repositories as original work.",
-      "Never disclose confidential client or banking information."
-    ],
-
-    languageRules: [
-
-      "Use clear professional English.",
-      "Avoid exaggerated marketing language.",
-      "Prefer evidence over generic claims.",
-      "When information is unknown, say that it is not currently available.",
-      "Do not describe Mohit as an FDE unless the user is asking about his career direction; use emerging FDE positioning.",
-      "Do not describe every GitHub project as production-grade."
+    sourcePriority: [
+      "Current professional experience",
+      "Specific project data",
+      "Detailed technology stack",
+      "Certifications",
+      "GitHub public work",
+      "Topmate journey",
+      "YouTube journey",
+      "Education"
     ]
   },
-
-
-  // ==========================================================
-  // QUICK CHIPS / TABS
-  // ==========================================================
 
   quickChips: [
 
     {
       label:
-        "🎙️ 30s Voice Pitch",
+        "☁️ Salesforce Clouds",
 
       action:
-        "pitch",
+        "salesforceClouds",
 
       query:
-        "Give me Mohit's 30-second elevator pitch"
+        "Which Salesforce Clouds has Mohit worked with?"
     },
-
 
     {
       label:
-        "🏢 GeekSoft",
+        "⚡ Salesforce Development",
 
       action:
-        "geeksoft",
+        "salesforceDevelopment",
 
       query:
-        "Tell me about Mohit's current work at GeekSoft"
+        "What is Mohit's Salesforce development stack?"
     },
-
 
     {
       label:
-        "🧑‍💼 Recruitment AI",
+        "🤖 Salesforce AI",
 
       action:
-        "geeksoftRecruitment",
+        "salesforceAI",
 
       query:
-        "Tell me about Mohit's AI recruitment management project at GeekSoft"
+        "What Salesforce AI and Agentforce technologies does Mohit work with?"
     },
-
 
     {
       label:
-        "🏦 Malaysia Banking",
+        "📊 Salesforce Analytics",
 
       action:
-        "geeksoftBanking",
+        "salesforceAnalytics",
 
       query:
-        "Tell me about Mohit's Malaysian banking and compliance project"
+        "What is Mohit's Salesforce analytics stack?"
     },
-
 
     {
       label:
-        "💼 Work Tracks",
+        "📈 Tableau",
 
       action:
-        "workTracks",
+        "tableau",
 
       query:
-        "Show Mohit's work tracks and career progression"
+        "What Tableau work and skills does Mohit have?"
     },
-
 
     {
       label:
-        "🧩 Individual Projects",
+        "🔗 Salesforce Integrations",
 
       action:
-        "individualProjects",
+        "salesforceIntegration",
 
       query:
-        "Show Mohit's independent projects one by one"
+        "What Salesforce integration technologies does Mohit use?"
     },
 
+    {
+      label:
+        "🛡️ Salesforce Security",
+
+      action:
+        "salesforceSecurity",
+
+      query:
+        "What Salesforce security and access experience does Mohit have?"
+    },
+
+    {
+      label:
+        "🧠 Generic AI Stack",
+
+      action:
+        "genericAI",
+
+      query:
+        "What is Mohit's generic AI technology stack outside Salesforce?"
+    },
+
+    {
+      label:
+        "🤖 Machine Learning",
+
+      action:
+        "machineLearning",
+
+      query:
+        "What machine learning technologies and projects has Mohit worked on?"
+    },
+
+    {
+      label:
+        "📐 Data Analytics",
+
+      action:
+        "dataAnalytics",
+
+      query:
+        "What is Mohit's generic data analytics stack?"
+    },
+
+    {
+      label:
+        "🐍 Python",
+
+      action:
+        "python",
+
+      query:
+        "What Python technologies and projects does Mohit have?"
+    },
+
+    {
+      label:
+        "🚀 FastAPI & Backend",
+
+      action:
+        "backend",
+
+      query:
+        "What FastAPI, Flask and backend API work has Mohit done?"
+    },
+
+    {
+      label:
+        "🧪 Automation & Testing",
+
+      action:
+        "automation",
+
+      query:
+        "What automation and testing technologies has Mohit worked with?"
+    },
+
+    {
+      label:
+        "🌐 Web Development",
+
+      action:
+        "webDevelopment",
+
+      query:
+        "What web-development technologies and projects has Mohit worked on?"
+    },
+
+    {
+      label:
+        "💻 Programming Languages",
+
+      action:
+        "languages",
+
+      query:
+        "Which programming languages does Mohit work with?"
+    },
+
+    {
+      label:
+        "🛠️ Developer Tools",
+
+      action:
+        "developerTools",
+
+      query:
+        "What developer tools does Mohit use?"
+    },
+
+    {
+      label:
+        "🏢 GeekSoft Projects",
+
+      action:
+        "geeksoftProjects",
+
+      query:
+        "Show Mohit's individual GeekSoft projects"
+    },
 
     {
       label:
@@ -2732,6 +2282,16 @@ const PORTFOLIO_DATA = {
         "Show Mohit's professional projects by company"
     },
 
+    {
+      label:
+        "🧩 Individual Projects",
+
+      action:
+        "individualProjects",
+
+      query:
+        "Show Mohit's independent projects one by one"
+    },
 
     {
       label:
@@ -2744,7 +2304,6 @@ const PORTFOLIO_DATA = {
         "Show Mohit's GitHub projects and public repositories"
     },
 
-
     {
       label:
         "🗂️ All Projects",
@@ -2753,9 +2312,8 @@ const PORTFOLIO_DATA = {
         "allProjects",
 
       query:
-        "Show all of Mohit's projects across GeekSoft, professional work, independent work and GitHub"
+        "Show all of Mohit's professional, independent and GitHub projects"
     },
-
 
     {
       label:
@@ -2768,7 +2326,6 @@ const PORTFOLIO_DATA = {
         "Tell me about Mohit's Forward Deployed Engineer journey"
     },
 
-
     {
       label:
         "⭐ Topmate Journey",
@@ -2779,7 +2336,6 @@ const PORTFOLIO_DATA = {
       query:
         "Tell me about Mohit's Topmate mentorship journey"
     },
-
 
     {
       label:
@@ -2792,6 +2348,16 @@ const PORTFOLIO_DATA = {
         "Tell me about Mohit's YouTube journey"
     },
 
+    {
+      label:
+        "🏢 Current GeekSoft Role",
+
+      action:
+        "geeksoft",
+
+      query:
+        "Tell me about Mohit's current work at GeekSoft"
+    },
 
     {
       label:
@@ -2804,7 +2370,6 @@ const PORTFOLIO_DATA = {
         "What are Mohit's key achievements?"
     },
 
-
     {
       label:
         "📜 Certifications",
@@ -2815,31 +2380,6 @@ const PORTFOLIO_DATA = {
       query:
         "What certifications does Mohit hold?"
     },
-
-
-    {
-      label:
-        "🛠️ Tech Stack",
-
-      action:
-        "skills",
-
-      query:
-        "What is Mohit's technical stack?"
-    },
-
-
-    {
-      label:
-        "🐙 GitHub",
-
-      action:
-        "github",
-
-      query:
-        "Show me Mohit's GitHub profile and public technical work"
-    },
-
 
     {
       label:
@@ -2860,14 +2400,9 @@ const PORTFOLIO_DATA = {
 // ============================================================
 
 if (typeof window !== "undefined") {
-
-  window.PORTFOLIO_DATA =
-    PORTFOLIO_DATA;
+  window.PORTFOLIO_DATA = PORTFOLIO_DATA;
 }
 
-
 if (typeof module !== "undefined" && module.exports) {
-
-  module.exports =
-    PORTFOLIO_DATA;
+  module.exports = PORTFOLIO_DATA;
 }
